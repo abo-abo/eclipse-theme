@@ -1,4 +1,4 @@
-;;; eclipse-theme.el --- theme from Eclispe circa 2010
+;;; eclipse-theme.el --- Theme based on Eclipse circa 2010
 
 ;; Copyright (C) 2015 Oleh Krehel
 
