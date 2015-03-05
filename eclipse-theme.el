@@ -83,6 +83,7 @@
             (mode-line :foreground "black" :background "#f9b593" :box nil)
             (mode-line-inactive :foreground "grey20" :background "grey90" :box nil)
             (minibuffer-prompt :foreground "medium blue")
+            (hl-line :background "#e5e4e2")
             ;; defaults
             (mode-line-buffer-id)
             (show-paren-match :background "turquoise")
