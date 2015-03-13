@@ -79,7 +79,6 @@
             (org-code :foreground ,eclipse-builtin :weight bold)
             (org-verbatim :foreground ,eclipse-const)
             (ido-subdir :weight bold)
-            (helm-locate-finish :foreground ,eclipse-const)
             (mode-line :foreground "black" :background "#f9b593" :box nil)
             (mode-line-inactive :foreground "grey20" :background "grey90" :box nil)
             (minibuffer-prompt :foreground "medium blue")
@@ -88,7 +87,10 @@
             (mode-line-buffer-id)
             (show-paren-match :background "turquoise")
             (isearch :background "magenta3" :foreground "lightskyblue1")
-            (link :foreground "RoyalBlue3" :underline t)))))
+            (link :foreground "RoyalBlue3" :underline t)
+            ;; other packages
+            (helm-locate-finish :foreground ,eclipse-const)
+            (aw-mode-line-face :foreground ,eclipse-string)))))
 
 (custom-theme-set-variables
  'eclipse
