@@ -90,7 +90,13 @@
             (link :foreground "RoyalBlue3" :underline t)
             ;; other packages
             (helm-locate-finish :foreground ,eclipse-const)
-            (aw-mode-line-face :foreground ,eclipse-string)))))
+            (aw-mode-line-face :foreground ,eclipse-string)
+            (ivy-current-match :background "#e5b7c0")
+            (swiper-match-face-1 :background "#FEEA89")
+            (swiper-match-face-2 :background "#F9A35A")
+            (swiper-match-face-3 :background "#fb7905")
+            (swiper-match-face-4 :background "#F15C79")
+            (swiper-line-face :background "#f3d3d3")))))
 
 (custom-theme-set-variables
  'eclipse
