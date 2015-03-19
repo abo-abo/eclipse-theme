@@ -96,7 +96,11 @@
             (swiper-match-face-2 :background "#F9A35A")
             (swiper-match-face-3 :background "#fb7905")
             (swiper-match-face-4 :background "#F15C79")
-            (swiper-line-face :background "#f3d3d3")))))
+            (swiper-line-face :background "#f3d3d3")
+            (powerline-active1 :background "grey22" :foreground "white" :inherit mode-line)
+            (powerline-active2 :background "grey40" :foreground "white" :inherit mode-line)
+            (powerline-inactive1 :background "grey22" :foreground "white" :inherit mode-line-inactive)
+            (powerline-inactive2 :background "grey40" :foreground "white" :inherit mode-line-inactive)))))
 
 (custom-theme-set-variables
  'eclipse
