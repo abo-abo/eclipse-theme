@@ -100,7 +100,10 @@
             (powerline-active1 :background "grey22" :foreground "white" :inherit mode-line)
             (powerline-active2 :background "grey40" :foreground "white" :inherit mode-line)
             (powerline-inactive1 :background "grey22" :foreground "white" :inherit mode-line-inactive)
-            (powerline-inactive2 :background "grey40" :foreground "white" :inherit mode-line-inactive)))))
+            (powerline-inactive2 :background "grey40" :foreground "white" :inherit mode-line-inactive)
+            (ido-vertical-first-match-face :background "#e5b7c0")
+            (ido-vertical-only-match-face :background "#e52b50" :foreground "white")
+            (ido-vertical-match-face :foreground "#b00000")))))
 
 (custom-theme-set-variables
  'eclipse
