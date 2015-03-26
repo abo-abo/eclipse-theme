@@ -110,6 +110,13 @@
  '(ansi-color-names-vector ["#242424" "#e5786d" "#95e454" "#cae682"
                             "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"]))
 
+;;;###autoload
+(and load-file-name
+     (boundp 'custom-theme-load-path)
+     (add-to-list 'custom-theme-load-path
+                  (file-name-as-directory
+                   (file-name-directory load-file-name))))
+
 (provide 'eclipse-theme)
 
 ;;; eclipse-theme.el ends here
