@@ -75,7 +75,7 @@
             (font-lock-string-face :foreground ,eclipse-string)
             (font-lock-type-face :foreground ,eclipse-fg :underline t :slant italic)
             (font-lock-variable-name-face :foreground ,eclipse-fg)
-            (font-lock-warning-face :foreground ,eclipse-error :weight bold)
+            (font-lock-warning-face :foreground ,eclipse-error)
             (org-code :foreground ,eclipse-builtin :weight bold)
             (org-verbatim :foreground ,eclipse-const)
             (ido-subdir :weight bold)
