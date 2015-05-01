@@ -78,6 +78,7 @@
             (font-lock-warning-face :foreground ,eclipse-error)
             (org-code :foreground ,eclipse-builtin :weight bold)
             (org-verbatim :foreground ,eclipse-const)
+            (org-level-5)
             (ido-subdir :weight bold)
             (mode-line :foreground "black" :background "#f9b593" :box nil)
             (mode-line-inactive :foreground "grey20" :background "grey90" :box nil)
