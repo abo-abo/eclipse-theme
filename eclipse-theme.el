@@ -60,6 +60,7 @@
             (fringe :background ,eclipse-bg)
             (region :background ,eclipse-region :foreground ,eclipse-bg)
             (secondary-selection :background "#333366" :foreground "#f6f3e8")
+            (term)
             ;; (font-lock-negation-char-face :foreground "#e8e2b7")
             (font-lock-builtin-face :foreground ,eclipse-builtin :bold t)
             (font-lock-comment-face :foreground ,eclipse-comment :slant normal)
