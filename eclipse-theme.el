@@ -79,7 +79,7 @@
             (org-code :foreground ,eclipse-builtin :weight bold)
             (org-verbatim :foreground ,eclipse-const)
             (org-level-1 :weight bold :foreground "black")
-            (org-level-2 :weight bold :foreground "#123555")
+            (org-level-2 :foreground "#123555")
             (org-level-4 :weight bold :slant normal :foreground "#EA6300")
             (org-level-5 :weight bold :slant normal :foreground "#E3258D")
             (org-level-6 :weight bold :slant italic :foreground "#0077CC")
