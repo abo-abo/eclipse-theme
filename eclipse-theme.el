@@ -56,6 +56,8 @@
             (success :foreground ,eclipse-error)
             (error :foreground ,eclipse-error :weight bold)
             (warning :foreground "DarkOrange" :weight bold)
+            (compilation-warning :underline t :inherit warning)
+            (compilation-error :underline t :inherit error)
             (highlight :background "darkseagreen2")
             (fringe :background ,eclipse-bg)
             (region :background ,eclipse-region :foreground ,eclipse-bg)
