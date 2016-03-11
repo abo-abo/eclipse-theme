@@ -133,7 +133,8 @@
             (magit-diff-hunk-heading-highlight :inherit diff-hunk-header :weight bold)
             (magit-hash :foreground "firebrick")
             (magit-branch-remote :background "Grey85" :foreground "OliveDrab4" :box t)
-            (magit-branch-local :background "Grey85" :foreground "LightSkyBlue4" :box t)))))
+            (magit-branch-local :background "Grey85" :foreground "LightSkyBlue4" :box t)
+            (cider-instrumented-face)))))
 
 (custom-theme-set-variables
  'eclipse
