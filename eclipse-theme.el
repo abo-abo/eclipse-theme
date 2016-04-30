@@ -47,8 +47,7 @@
   (apply 'custom-theme-set-faces 'eclipse
          (mapcar
           (lambda (x) `(,(car x) ((,class ,(cdr x)))))
-          `((default :family "DejaVu Sans Mono"
-              :height 113
+          `((default
               :foreground ,eclipse-fg
               :background ,eclipse-bg)
             (cursor :background ,eclipse-fg)
