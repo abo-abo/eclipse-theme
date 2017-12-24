@@ -47,9 +47,7 @@
   (apply 'custom-theme-set-faces 'eclipse
          (mapcar
           (lambda (x) `(,(car x) ((,class ,(cdr x)))))
-          `((default
-              :foreground ,eclipse-fg
-              :background ,eclipse-bg)
+          `((default :foreground ,eclipse-fg :background ,eclipse-bg)
             (cursor :background ,eclipse-fg)
             (shadow :foreground ,eclipse-shadow)
             (success :foreground ,eclipse-error)
@@ -57,6 +55,7 @@
             (warning :foreground "DarkOrange" :weight bold)
             (compilation-warning :underline t :inherit warning)
             (compilation-error :underline t :inherit error)
+            (compilation-info :underline t :foreground ,eclipse-const)
             (highlight :background "darkseagreen2")
             (fringe :background ,eclipse-bg)
             (region :background ,eclipse-region :foreground ,eclipse-bg)
