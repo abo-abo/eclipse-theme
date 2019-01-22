@@ -78,6 +78,7 @@
             (font-lock-type-face :foreground ,eclipse-fg :underline t :slant italic)
             (font-lock-variable-name-face :foreground ,eclipse-fg)
             (font-lock-warning-face :foreground ,eclipse-error)
+            (font-lock-doxygen-face :foreground "SaddleBrown" :background "#f7f7f7")
             (org-code :foreground ,eclipse-builtin :weight bold)
             (org-verbatim :foreground ,eclipse-const)
             (org-level-1 :weight bold :foreground "black")
