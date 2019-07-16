@@ -135,6 +135,7 @@
             (magit-hash :foreground "firebrick")
             (magit-branch-remote :background "Grey85" :foreground "OliveDrab4" :box t)
             (magit-branch-local :background "Grey85" :foreground "LightSkyBlue4" :box t)
+            (mu4e-modeline-face :foreground "white")
             (ivy-highlight-face)
             (ivy-posframe :background "#eeeeee" :foreground "#000000")
             (wgrep-face :foreground ,eclipse-comment)
