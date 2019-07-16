@@ -116,6 +116,8 @@
             (powerline-active2 :background "grey40" :foreground "white" :inherit mode-line)
             (powerline-inactive1 :background "grey22" :foreground "white" :inherit mode-line-inactive)
             (powerline-inactive2 :background "grey40" :foreground "white" :inherit mode-line-inactive)
+            (diff-added :background "#ddffdd")
+            (diff-removed :background "#ffdddd")
             (magit-tag :background "LemonChiffon1" :foreground "goldenrod4")
             (magit-section-heading :inherit header-line)
             (magit-section-highlight :weight bold)
