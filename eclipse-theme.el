@@ -58,7 +58,7 @@
             (compilation-info :underline t :foreground ,eclipse-const)
             (highlight :background "darkseagreen2")
             (fringe :background ,eclipse-bg)
-            (region :background ,eclipse-region :foreground ,eclipse-bg)
+            (region :background ,eclipse-region :foreground ,eclipse-bg :extend t)
             (secondary-selection :background "#333366" :foreground "#f6f3e8")
             (whitespace-indentation :background "LightYellow" :foreground "lightgray")
             (term)
@@ -96,7 +96,7 @@
             (mode-line :foreground "black" :background "#f9b593" :box nil)
             (mode-line-inactive :foreground "grey20" :background "grey90" :box nil)
             (minibuffer-prompt :foreground "medium blue")
-            (hl-line :background "#e5e4e2")
+            (hl-line :background "#e5e4e2" :extend t)
             ;; defaults
             (mode-line-buffer-id)
             (show-paren-match :background "turquoise")
